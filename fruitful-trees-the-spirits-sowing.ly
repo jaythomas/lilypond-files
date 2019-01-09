@@ -1,8 +1,8 @@
 \header {
   title = "Fruitful Trees, the Spirit's Sowing"
-  composer = "Ralph C. Schultz, b. 1932"
+  composer = "Sir John Stainer (1840-1901)"
   poet = "Timothy Dudley-Smith, b. 1926"
-  tagline = "Text © Copyright 1984 Hope Publishing Co. \n Tune © 1980 Concordia Publishing House"
+  tagline = "Text © Copyright 1984 Hope Publishing Co. \n Tune from Sir John Stainer's The Crucifixion, \"All for Jesus\""
 }
 
 \version "2.19.82"
@@ -54,8 +54,8 @@ lower = \context Staff \relative c \new Voice \repeat volta 2 {
   % 5
   <g f'>4 <g d' g> <f f'> <e e'> |
   <b' b'> <a a'> <d a'> <d gs b> |
-  <c c'> <g g'> <g g'> <g g'> |
-  <g f'> <g f'> <c e>2
+  <c c'> <g g'> << { e'8 f g4 } \\ { g,4 g } >> |
+  <g f'> <g f'> <c, c'>2
 
 }
 
